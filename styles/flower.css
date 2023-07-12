@@ -1,0 +1,264 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.header {
+    background-color: darksalmon;
+    /* width: 1500px; */
+    height: 800px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+}
+
+.btn-primary {
+    background: deeppink;
+    border: 0;
+    color: white;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+
+.text-primary {
+    color: #E55473;
+}
+
+.banner {
+    padding: 50px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner .profile-pic {
+    width: 500px;
+    height: 800px;
+    flex-shrink: 0;
+
+}
+
+.banner-content {
+    max-width: 500px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.banner-greeting {
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.banner-description {
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+
+.section-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 90px;
+}
+
+.section-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.second-line {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 40px;
+}
+
+
+#Our-Featured-Flowers-description {
+    padding: 2px 158px;
+}
+
+
+.flowers-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-shrink: 0;
+    box-shadow: #272727;
+
+}
+
+.flower-1st {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 390px;
+    height: 470px;
+    flex-shrink: 0;
+}
+
+.flower-2nd {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 390px;
+    height: 470px;
+    flex-shrink: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.flower-3rd {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    width: 390px;
+    height: 470px;
+    flex-shrink: 0;
+}
+
+.under-img-1 {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+
+.discount-title {
+    margin-top: 100px;
+    color: #272727;
+    background: rgba(229, 84, 115, 0.05);
+    padding-top: 140px;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+}
+
+
+.about-flower {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    background-color: #E554730D;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+.third-line {
+    color: rgba(39, 39, 39, 0.60);
+    background-color: #E554730D;
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.botany {
+    width: 1500px;
+    background-color: #E554730D;
+    height: 500px;
+    flex-shrink: 0;
+}
+
+.roses {
+    text-align: center;
+}
+
+.roses img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    display: block;
+    margin: 0 auto;
+    background: #E55473;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.insta-post {
+    color: #272727;
+    padding-top: 99px;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.about-insta {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.lotos {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.flower-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flower-container>div {
+     padding-left: 10px; 
+    padding-right: 10px; 
+    padding-bottom: 120px;
+}
+
+/* .dna-of-roses{ */
+    /* width: 800px; */
+    /* height: auto; */
+    /* flex-shrink: 0; */
+    /* margin: 0 auto; */
+
+
+#lili {
+    width: 1170px;
+    margin: 0 auto;
+    height: 300px;
+    background-image: url(../asset/Rectangle9.png);
+}

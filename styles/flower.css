@@ -265,10 +265,11 @@
     justify-content: center;
     align-items: center;
     padding-bottom: 148px;
-   
+
 }
 
 .lili-text {
+    padding-top: 120px;
     text-align: center;
 }
 
@@ -287,17 +288,17 @@
     height: 45px;
     flex-shrink: 0;
     border-radius: 8px;
-    
-    
+
+
 }
 
 .custom-button {
-    width: 150px;
-    height: 64px;
+    width: 90px;
+    height: 44px;
     flex-shrink: 0;
     border-radius: 8px;
     background: #E55473;
-    
+
 }
 
 .custom-button {
@@ -309,17 +310,49 @@
 
 .flower-shop {
     margin-top: 150px;
-    text-align: center;
+    text-align: center; 
     background-color: #272727;
-}
-.footer-title{
-    color: #FFF;
-}
-.footer-description{
-    color: #FFF;
-}
-.second-line{
-    color: #FFF;
+    padding: 50px;
+    width: auto;
+    height: 250px;
+    padding: 200px;
 }
 
+.container {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+ 
+}
 
+.footer-title {
+    color: #FFF;
+    margin: 0;
+    font-size: xxx-large;
+}
+
+.footer-description {
+    color: #FFF;
+   margin: 0;
+   font-size: xx-large;
+}
+
+.second-line {
+    color: #FFF;
+     padding-bottom: 10px; 
+     margin: 0; 
+     font-size: xx-large;
+    
+}
+
+.footer-last {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
